@@ -1,0 +1,81 @@
+@import url('https://fonts.cdnfonts.com/css/happy-personal-use');
+
+.containerAll{
+    width: auto;
+   
+}
+
+.container{
+    background-image: url('/login.png');
+    background-size: cover;
+    width: 550px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    position: absolute;
+    left: 30%;
+}
+.title{
+    font-family: 'Happy Personal Use', sans-serif;
+    font-size: 2rem;
+    color: black;
+}
+
+.containerFormBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+}
+
+.containerForm{
+    display: flex;
+    flex-direction:column;
+    place-items: center;
+}
+
+.containerForm>div{
+    display: flex;
+    height: 90px;
+    flex-direction: column;
+    place-items: start;
+}
+
+.containerForm>div>label{
+ display: block;
+ font-weight: bold;
+}
+
+.containerForm>div>input{
+    height: 30px;
+    width: 60vh;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.containerForm>div>button{
+    background-color: rgb(77, 77, 216);
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.containerForm>div>button:hover{
+    background-color: blue;
+}
+
+.containerGF{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.forgotPassword{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8rem;
+    color: gray;
+    text-decoration: underline;
+}

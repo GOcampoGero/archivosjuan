@@ -1,0 +1,12 @@
+.container{
+    width: 65vh;
+    display: flex;
+    place-items: center;
+    gap: 10px;
+}
+.input{
+    width: 30vw;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+}
